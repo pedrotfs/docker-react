@@ -11,7 +11,8 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          I was changed.
+          This is amazing! a simple change in a feature branch goes like this.
+          Feature --PR--> master --travis tests--> AWS --elastic bean stalk--> deploy
         </p>
       </div>
     );
