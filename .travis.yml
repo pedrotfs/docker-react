@@ -18,5 +18,5 @@ deploy:
   on:
     branch: master #travis will redeploy on any pushes to master branch only
   access_key_id: $AWS_ACCESS_KEY #config in settings on travis cl
-  screte_access_key:
+  secret_access_key:
     secure: "$AWS_SECRET_KEY" #config in settings on travis cl
